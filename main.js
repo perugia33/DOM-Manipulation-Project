@@ -61,6 +61,7 @@ greenCard.classList.replace("bg-white", "bg-success");
 
 var darkCard= document.getElementById("black");
 console.log(darkCard);
-darkCard.classList.add("bg-dark");
+darkCard.classList.add("bg-dark","text-white");   
 console.log(darkCard.classList);
 darkCard.classList.replace("bg-white", "bg-dark");
+darkCard.classList.replace("text-dark", "text-white");
